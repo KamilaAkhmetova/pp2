@@ -17,4 +17,3 @@ bday = datetime.date(2025, 2, 15)
 till_bday = bday - tday
 print(till_bday) # or print(till_day.days)
 print(till_bday.total_seconds())
-
