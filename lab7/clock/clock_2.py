@@ -29,7 +29,7 @@ big_arrow = pygame.transform.scale(big_arrow, (BIG_ARROW_WIDTH, BIG_ARROW_HEIGHT
 
 # i modified it
 small_arrow = pygame.image.load(r'C:\Users\Kamila\Pictures\Saved Pictures\small-arrow.png')
-SMALL_ARROW_WIDTH = 40
+SMALL_ARROW_WIDTH = 45
 SMALL_ARROW_ASPECT_RATIO = 0.3
 SMALL_ARROW_HEIGHT = SMALL_ARROW_WIDTH / SMALL_ARROW_ASPECT_RATIO
 small_arrow = pygame.transform.scale(small_arrow, (SMALL_ARROW_WIDTH, SMALL_ARROW_HEIGHT))
