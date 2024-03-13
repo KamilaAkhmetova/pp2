@@ -67,7 +67,6 @@ while running:
                 play_previous_song()
 
     screen.fill((255, 255, 255))
-    # Blitting photos at their adjusted positions
     screen.blit(photo_arr[current_song_index], (photo_positions[current_song_index], 0))
     pygame.display.flip()
     clock.tick(FPS)
