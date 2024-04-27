@@ -8,7 +8,7 @@ conn = psycopg2.connect(
     port='5432'
 )
 cursor = conn.cursor()
-conn.autocommit = True
+#conn.autocommit = True
 
 # CSV to TABLE
 f = open("phonenumbers.csv", "r")

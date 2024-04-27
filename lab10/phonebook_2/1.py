@@ -8,7 +8,6 @@ conn = psycopg2.connect(
     port='5432'
 )
 cursor = conn.cursor()
-conn.autocommit = True
 
 # Alter the table schema to change the data type of the phone_num column to VARCHAR
 alter_table_query = """

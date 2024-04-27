@@ -8,7 +8,6 @@ conn = psycopg2.connect(
 	port= '5432'
 )
 cursor = conn.cursor()
-conn.autocommit = True
 
 #looking with the first and last name
 first_old = str(input("Enter first name that you want to change: "))
